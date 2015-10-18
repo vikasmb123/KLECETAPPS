@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/register_afterright"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/register_beforeright"
+        android:state_focused="true"
+        />
+    <item android:drawable="@drawable/register_beforeright"
+        />
+</selector>

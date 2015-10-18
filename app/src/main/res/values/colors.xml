@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#536DFE</color>
+    <color name="ActionBarColorPrimary">#536DFE</color>
+    <color name="ActionBarColorPrimaryDark">#536DFE</color>
+    <color name="LoginHintText">#616161</color>
+    <color name="LoginBackground">#FF5722</color>
+    <color name="LoginWelcome">#FFFFFF</color>
+    <color name="LoginButtonBack">#2196F3</color>
+    <color name="color_primary">#2196F3</color>
+    <color name="color_primary_dark">#1976D2</color>
+    <color name="accent_color">#c2110e</color>
+    <color name="black_color">#000000</color>
+</resources>

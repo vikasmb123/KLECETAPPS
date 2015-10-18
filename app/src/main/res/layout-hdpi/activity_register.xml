@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#536DFE"
+    android:alpha=".9"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewRegisterName"
+        android:text="Enter your name"
+        android:textSize="20dp"
+        android:textColor="#f9fbfb"
+        android:gravity="center"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextRegisterName"
+        android:layout_below="@+id/TextViewRegisterName"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewRegisterUSN"
+        android:text="Enter your USN"
+        android:textSize="20dp"
+        android:textColor="#f9fbfb"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+       android:layout_below="@+id/EditTextRegisterName"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextRegisterUSN"
+        android:layout_below="@+id/TextViewRegisterUSN"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewRegisterPassword"
+        android:text="Enter your Password"
+        android:textSize="20dp"
+        android:textColor="#f9fbfb"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/EditTextRegisterUSN"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditTextRegisterPassword"
+        android:layout_below="@+id/TextViewRegisterPassword"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/BranchSpinner"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/SemSpinner"
+        android:layout_alignLeft="@+id/EditTextRegisterPassword"
+        android:layout_alignStart="@+id/EditTextRegisterPassword" />
+    <Spinner
+        android:id="@+id/SemSpinner"
+        style="@style/Widget.AppCompat.Spinner"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/EditTextRegisterPassword"
+        android:layout_alignRight="@+id/EditTextRegisterUSN"
+        android:layout_alignEnd="@+id/EditTextRegisterUSN" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_after_register"
+        android:onClick="onClickLogin"
+       android:layout_marginBottom="5dp"
+        android:layout_below="@+id/BranchSpinner"
+        android:layout_toLeftOf="@+id/SemSpinner"
+        android:layout_toStartOf="@+id/SemSpinner"
+        android:id="@+id/imageButton" />
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.gadds.klecet.DashboardActivity"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/klecetfront"
+        android:src="@drawable/klecollegefront"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KLE Dr. M S Sheshgiri College of Engineering and Technology (KLECET), formerly known as K. L. E. Society’s College of Engineering
+and Technology, Belgaum is one of the premier and sought after technical Institution in the North Karnataka. It is under the umbrella
+of Karnatak Lingayat Education Society (KLE Society), Belgaum. KLECET is a Self-financing, Non-Autonomous and an ISO 9001:2008
+Certified Institution. The institution is recognized by All India Council for Technical Education(AICTE) and affiliated to Visvesvaraya
+Technological University (VTU), Belgaum. The institution presently offers 9 Under Graduate, 6 Post Graduate, M. C. A.  and M.B.A.
+courses having an intake of 640 at undergraduate and 243 at postgraduate level. Six of the departments are recognized as research
+centres by VTU, Belgaum."
+        android:layout_below="@+id/klecetfront"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    </RelativeLayout>

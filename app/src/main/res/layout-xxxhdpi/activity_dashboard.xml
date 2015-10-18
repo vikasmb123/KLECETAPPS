@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.gadds.klecet.DashboardActivity"
+    >
+    <Button
+        android:id="@+id/college_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_events"
+        android:text="College"
+        android:layout_alignBottom="@+id/department_events"
+        android:layout_alignRight="@+id/placements_events"
+        android:layout_alignEnd="@+id/placements_events" />
+    <Button
+        android:id="@+id/department_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_photos"
+        android:text="Department"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/libary_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_places"
+        android:text="Libary"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/placements_events"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/trasportation_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_messages"
+        android:text="Transportation"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/department_events"
+        android:layout_alignStart="@+id/department_events" />
+    <Button
+        android:id="@+id/placements_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_friends"
+        android:text="Placement Shell"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/clubs_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_newsfeed"
+        android:text="College clubs"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/trasportation_events"
+        android:layout_alignEnd="@+id/trasportation_events" />
+
+</RelativeLayout>

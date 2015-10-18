@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/library_afterpress"
+        android:state_pressed="true" />
+    <item android:drawable="@drawable/library_beforepress"
+        android:state_focused="true"
+        />
+    <item android:drawable="@drawable/library_beforepress"
+       />
+</selector>

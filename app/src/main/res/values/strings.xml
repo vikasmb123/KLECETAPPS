@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KLECETAPP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about_us_web_view">AboutUsWebView</string>
+    <string name="title_activity_nav_activity_dep">NavActivityDep</string>
+    <string name="title_activity_nav_activty_lib">NavActivtyLib</string>
+    <string name="title_activity_nav_activity_clubs">NavActivityClubs</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_placement">PlacementActivity</string>
+</resources>
